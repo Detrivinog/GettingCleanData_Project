@@ -43,4 +43,4 @@ names(data3) <- sub("-mean\\(\\)","",names(data3))
 data3
 
 #Export data
-write.table(data3, "tidy_data.txt")
+write.table(data3, "tidy_data.txt", row.name = FALSE)

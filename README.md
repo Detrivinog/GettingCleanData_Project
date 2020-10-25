@@ -125,7 +125,7 @@ data3
 #### Export data in text format
 
 ``` r
-write.table(data3, "tidy_data.txt")
+write.table(data3, "tidy_data.txt", row.name = FALSE)
 ```
 
 ## Bibliography
